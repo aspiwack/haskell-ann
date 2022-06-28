@@ -10,7 +10,7 @@
 -- == Variable names
 --
 -- You are writing a programing language, and representing binder as [de Bruijn
--- indices](https://en.wikipedia.org/wiki/ De_Bruijn_index). Nevertheless you
+-- indices](https://en.wikipedia.org/wiki/De_Bruijn_index). Nevertheless you
 -- want to keep the variable names written by the user, to be able to interact
 -- with them on these terms (/e.g./ in error messages). With 'Ann' it would look
 -- like this:
@@ -29,7 +29,7 @@
 -- The [Validation](https://hackage.haskell.org/package/validation) applicative
 -- can be made into a monad. Specifically @Validation (Ann e)@ is a monad, as I
 -- explained [in a Twitter
--- thread](https://twitter.com/aspiwack/status/1511987089562341377)
+-- thread](https://twitter.com/aspiwack/status/1511987089562341377).
 --
 -- = __Theoretical considerations__
 --

@@ -2,12 +2,13 @@ cabal-version: 1.12
 
 name:           ann
 version:        1.0.0
-synopsis: Informative annotations which don't change equality
+synopsis:       Informative annotations which don't change equality
 description:
-    This pakcage introduces a type @Ann a@ to annotate data types
+    This package introduces a type @Ann a@ to annotate data types
     with information which doesn't influence the behaviour of your
     program. These annotations can then be displayed, as assistance to
     the user.
+category:       Data
 homepage:       https://github.com/aspiwack/haskell-ann#readme
 bug-reports:    https://github.com/aspiwack/haskell-ann/issues
 author:         Arnaud Spiwack

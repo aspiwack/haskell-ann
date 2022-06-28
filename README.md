@@ -32,4 +32,4 @@ user's choice of variable doesn't change the term (this is called
 The [Validation](https://hackage.haskell.org/package/validation)
 applicative can be made into a monad. Specifically `Validation (Ann
 e)` is a monad, as I explained [in a Twitter
-thread](https://twitter.com/aspiwack/status/1511987089562341377)
+thread](https://twitter.com/aspiwack/status/1511987089562341377).
