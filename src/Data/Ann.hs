@@ -202,7 +202,7 @@ instance Ord (Ann a) where
 -- your need – you can use 'unsafeExtract' to observe the underlying value of an
 -- annotation.
 --
--- ⚠️ You /must/ prove that you are not using @'unsafeExtract ann@ in a way where
+-- ⚠️ You /must/ prove that you are not using @'unsafeExtract' ann@ in a way where
 -- changing the value of @ann@ would change the behaviour of your program.
 unsafeExtract :: Ann a -> a
 unsafeExtract (Squash a) = a
